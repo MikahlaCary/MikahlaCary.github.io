@@ -12,9 +12,7 @@ function preload() {
   img = loadImage('https://MikahlaCary.github.io/netart/camell.jpg');
   img2back = loadImage('https://MikahlaCary.github.io/background.jpg')
   img3 = loadImage('https://MikahlaCary.github.io/goombahcutout.png')
-  img4 = loadImage('https://MikahlaCary.github.io/westsidesunset.jpg')
-  img5 = loadImage('https://MikahlaCary.github.io/ceramicfridgecutout.png')
-  img9 = loadImage('https://MikahlaCary.github.io/octodreams-removebg-preview.png')
+  
 }
 
 function setup() {
@@ -50,7 +48,7 @@ function newkeyChoice(toolChoice) { //toolchoice is the key that was pressed
   /////second tool green fat line
 
     stroke(43, 128, 24);
-    strokeWeight(9);
+    strokeWeight(29);
     line(mouseX, mouseY, pmouseX, pmouseY);
     strokeWeight (4);
     
@@ -59,7 +57,7 @@ function newkeyChoice(toolChoice) { //toolchoice is the key that was pressed
   /////third tool
 
    stroke(61, 138, 99, 100);
-    strokeWeight(20);
+    strokeWeight(30);
     line(mouseX, mouseY, pmouseX, pmouseY);
     strokeWeight (4);
     
@@ -71,29 +69,28 @@ function newkeyChoice(toolChoice) { //toolchoice is the key that was pressed
     //number 5 tool draws ray of light
   } else if (key == '5') { // this tool calls a function
     stroke(204, 252, 252);
-    line(585,150, mouseX, mouseY);
+    line(550,150, mouseX, mouseY);
  
     
  // make testbox do something!
  //   line(mouseX, mouseY, pmouseX, pmouseY);5
   } else if (toolChoice == '6') {
-    image(img, mouseX, mouseY, 50, 50);
+    image(img3, mouseX, mouseY, 50, 50);
   
-// add ceramic fridge cut out to the mix1
-} else if (toolChoice == '7') {
+  } else if (toolChoice == '7') {
 
-    //fill(100, 200, 100);
-    image(img5,mouseX, mouseY, 20, 30);
+    fill(100, 200, 100);
+    ellipse(mouseX, mouseY, 20, 20);
     
-//Make a poster image    
   } else if (toolChoice == '8') {
-   // fill(300, 100, 0, 80);
-    image(img4,mouseX, mouseY, 40, 50);
+    
+    fill(300, 100, 0, 80);
+    rect(mouseX, mouseY, 20, 20);
     
   } else if (toolChoice == '9') {
     
-    //fill(100, 100, 0, 80);
-    image(img9,mouseX, mouseY, 60, 60);
+    fill(100, 100, 0, 80);
+    rect(mouseX, mouseY, 40, 40);
     
   } else if (toolChoice == '0' ) { // 0 places the image we pre-loaded
     image(img3, mouseX, mouseY, 50, 50);
