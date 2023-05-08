@@ -1,48 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>Mikahla Cary Intro To Digital Media Portfolio</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-</head>
-<body>
-<div class="container-fluid">
-
-<h1>3D Print</h1>
-<br>
-<!-- Grey with black text -->
-<nav class="navbar navbar-expand-sm bg-light navbar-light">
-  <div class="container-fluid">
-    <ul class="navbar-nav">
-	 <li class="nav-item">
-        <a class="nav-link active" href="glitch.html">Glitch</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link active" href="mememashup.html">Meme Mashup</a>
-      </li>
-     <li class="nav-item">
-        <a class="nav-link" href="minecraft.html">Minecraft</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="3d.html">3D Printed Sculpture</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="netart.html">"Net art"</a>
-      </li>
-	  <li class="nav-item">
-        <a class="nav-link" href="touchme.html">"Touch Me Game"</a>
-      </li>
-    </ul>
-  </div>
-</nav>
-<br>
-<img class="img-fluid" src="touchme.png" alt="TouchMe">
-<br>
-<a href="touch_me/index.html"> Click here to play </a>
-<p>This is a game that I made using P5.js called Touch Me. </p>
-<textarea rows="10" cols="100">
 var img,img2back, img3, img4, img5, img6, img9;
 var ballx = 300;
 var bally = 300;
@@ -247,8 +202,3 @@ function levelSix(){
   }
 
 //... (6 lines left)
-</textarea>
-<br>
-</div>
-</body>
-</html>
